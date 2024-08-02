@@ -9,8 +9,8 @@
 <div class="main ready">
 	<div class="player">loading...</div>
 	<div class="logo">M3U8视频播放器</div>
-	<form class="form-control">
-		<input class="url" type="text" placeholder="请输入m3u8视频网址" value="https://live-play.cctvnews.cctv.com/cctv/merge_cctv13.m3u8" />
+	<form class="form-control" action="player.html" method="get">
+		<input class="url" type="text" name="vurl" placeholder="请输入m3u8视频网址" value="https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8" />
 		<input class="play" type="submit" value="" title="点击播放" />
 	</form>
 </div>
@@ -20,6 +20,6 @@
 <script src="js/artplayer/artplayer-plugin-control.js"></script>
 <script src="js/artplayer/hls.min.js"></script>
 <script src="js/artplayer/artplayer-plugin-hls-quality.js"></script>
-<script src="js/player.js"></script>
+<!--<script src="js/player.js"></script>-->
 </body>
 </html>
